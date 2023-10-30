@@ -1,0 +1,25 @@
+{
+  "name": "Sustainable Clothing Tool",
+  "version": "0.1.0",
+  "author": "Abby Hayashi",
+  "description": "This chrome extension helps you make better decisions about your clothes",
+  "permissions": ["storage", "tabs", "activeTab"],
+  "background": {
+    "service_worker": "js/background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*.youtube.com/*",
+        "https://*.urbanoutfitters.com/en-ca/shop/iets-frans-balloon-cargo-pant?category=shop-all-gifts&color=020&type=REGULAR&quantity=1"
+      ],
+      "js": ["contentScript.js"]
+    }
+  ],
+  "action": {
+    "default_title": "Sustainable Clothing Tool",
+    "default_popup": "index.html",
+    "default_icon": "favicon.png"
+  },
+  "manifest_version": 3
+}
