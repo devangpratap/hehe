@@ -1,10 +1,7 @@
-# 👖🌱 decode (🥈 at SustainHacks 2022)
+# decode
 We decode greenwashing on clothing labels so you can choose clothes that last longer and fight back against fast fashion practices.
 
-This is our submission to [Sustain Hacks 2022](https://organize.mlh.io/participants/events/8826-sustainhacks). To install our extension, please see the [installation instructions](#installation-instructions). Note that the webscraping service may not be live if the backend is being updated. 
-
-
-![product-gif](https://user-images.githubusercontent.com/94336773/205826346-1242214f-aa83-401a-a5c2-04465cb6499f.gif)
+ Note that the webscraping service may not be live if the backend is being updated. 
 
 ## Table of Contents
 
